@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.FeaturesHeader{
+    color: #BF6547;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+p,
+h3,
+img{
+    color: #D8D8D8;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
