@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
+*, html{
+    margin: 0;
+    padding: 0;
+}
+
 .FeaturesHeader{
     color: #BF6547;
     font-family: 'Quicksand', sans-serif;
@@ -19,4 +24,18 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+img.bg1{
+    min-height: 755px;
+    min-width: 1000px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+img.txt1{
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
 }
