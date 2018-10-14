@@ -11,13 +11,17 @@
     text-align: center;
 }
 
-p,
-h3,
+p {color: #D8D8D8;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;}
+h3{color: #D8D8D8;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;}
+
 img{
     color: #D8D8D8;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-
 }
 
 .center{
@@ -39,3 +43,71 @@ img.txt1{
     bottom: 60px;
     right: 100px;
 }
+
+
+h2{
+	 
+	font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+
+
+h1{
+	 
+	font-family: 'Quicksand', sans-serif;
+    	text-align: center;
+}
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: sans-serif;
+}
+.contact-title{
+	margin-top: 100px;
+	color: #BF6457;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1{
+	front-size: 32px;
+	line-height: 10px;
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;	
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outlin: none;
+	border-bottom: 1px solid grey;
+	color: #F8F8F8;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+form.submit{
+	background:#F8F8F8;
+	border-color: transparent;
+	color: #BF6457;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form.submit:hover{
+	background-color:#BF6457;
+	cursor: pointer;
+}
+
