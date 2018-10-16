@@ -26,7 +26,7 @@
 		margin: 0;
 		padding: 1.3em;
 		width: 100%;
-		background-color: rgba(248,248,248,.15);
+		background-color: rgba(248,248,248,0);
 		height: 2%;
 		position: fixed; /* Make it stick, even on scroll */
 		top: 0em;
@@ -47,8 +47,24 @@
 	
 		}
 	
-
+	
+	
+	.button {
+		text-decoration: none;
+		background-color: #bf6547;
+		border: none;
+		padding: 3px 5px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-family: 'Quicksand';font-size: 16px;
+		color: white;
+		margin: 0px 0px;
+		cursor: pointer;
+		border-radius: 8px;
 	}
+
+	
 
 
   </style>
@@ -69,7 +85,7 @@
 						<li><a class="top" href="#Features">Features</a></li>
 						<li><a class="top" href="#About us">About us</a></li>
 						<li><a class="top" href="#Contact us">Contact us</a></li>
-						<li><a class="top" href="#Download.">Download</a></li>
+						<li><a class="top" href="#Download."><button class="button">Download</button></a></li>
 					</ul>
 					
 					<div class="logo">
@@ -195,7 +211,7 @@
 		var yPos = (contentScrolled/(bodyHeight - heightOfWindow));
 	
 		if (yPos <= .1) {
-			document.getElementById("myDIV").style.backgroundColor = 'rgba(248,248,248,'+(yPos*10 +.15)+')';
+			document.getElementById("myDIV").style.backgroundColor = 'rgba(248,248,248,'+(yPos*10)+')';
 		}
 	
 		else
