@@ -77,10 +77,10 @@
 		<div id="Home">
 		
 		<!-- navbar -->
-		<div class ="navbar">
+		
 					
 					
-					<ul class ="navbar2" id="myDIV">
+					<ul id="navbar">
 						<li><a class="top" href="#Home">Home</a></li>
 						<li><a class="top" href="#Features">Features</a></li>
 						<li><a class="top" href="#About us">About us</a></li>
@@ -95,7 +95,7 @@
 					</a>
 					</div>
 					
-				</div>
+				
   
   <!-- picture -->
 			<div id="bgImg">
@@ -211,18 +211,18 @@
 		var yPos = (contentScrolled/(bodyHeight - heightOfWindow));
 	
 		if (yPos <= .1) {
-			document.getElementById("myDIV").style.backgroundColor = 'rgba(248,248,248,'+(yPos*10)+')';
+			document.getElementById("navbar").style.backgroundColor = 'rgba(248,248,248,'+(yPos*10)+')';
 		}
 	
 		else
 		{
-			document.getElementById("myDIV").style.backgroundColor = 'rgba(248,248,248,1)';
+			document.getElementById("navbar").style.backgroundColor = 'rgba(248,248,248,1)';
 		}
   
 	}, true)
   
 	function navColour() {
-		document.getElementById("myDIV").style.backgroundColor = "lightblue";
+		document.getElementById("navbar").style.backgroundColor = "lightblue";
 	}
 	
 </script>
