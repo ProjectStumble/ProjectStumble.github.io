@@ -119,3 +119,24 @@ form.submit:hover{
 	margin: 0px;
 	padding: 0px;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+	margin-left:101px;
+	margin-right:-200px;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+	margin-left:150px;
+	margin-right:-450px;
+}
+
+.row::after {
+    content: "";
+	padding: 20px;
+    clear: both;
+    display: table;
+}
