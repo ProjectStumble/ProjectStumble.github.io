@@ -28,9 +28,7 @@
     margin: auto;
 }
 
-.featuresSlides{
-    display: none;
-}
+.featuresSlides{ display: none}
 
 .overlay {
     position: absolute;
