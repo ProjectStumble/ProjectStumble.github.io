@@ -1,4 +1,4 @@
-var featuresSlideIndex =1;
+let featuresSlideIndex = 1;
 showSlides(featuresSlideIndex);
 
 function plusSlides(n){
@@ -10,10 +10,10 @@ function currentSlide(n) {
 }
 
 function showSlides(n){
-    var i;
-    var slides = document.getElementsByClassName("featuresSlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length){featuresSlideIndex = 1}
+    let i;
+    let slides = document.getElementsByClassName("featuresSlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {featuresSlideIndex = 1}
     if (n < 1) {featuresSlideIndex = slides.length}
     for (i=0; i < slides.length; i++){
         slides[i].style.display = "none";
