@@ -22,7 +22,7 @@ function showSlides(n){
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[featuresSlideIndex-1].style.display = "block";
-    dots[featuresSlideIndex-1].className = " active";
+    dots[featuresSlideIndex-1].className += " active";
 }
 
 
