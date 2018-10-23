@@ -241,8 +241,6 @@ form.submit:hover{
     display: table;
 }
 
-<<<<<<< HEAD
-=======
 .profile {
     border-radius: 50%;
 	box-shadow:-1px -1px 5px #111, 1px 1px 5px #111; 
@@ -309,4 +307,4 @@ form.submit:hover{
   transform: translate(-50%, -50%);
   text-align: center;
 }
->>>>>>> eb2469f67a7f76c107bdce8634dfc36dedfee366
+
