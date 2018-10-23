@@ -229,8 +229,8 @@ form.submit:hover{
 .column2 {
     float: left;
     width: 50%;
-	margin-left:150px;
-	margin-right:-450px;
+	margin-left:220px;
+	margin-right:-540px;
 }
 
 .row::after {
@@ -238,4 +238,71 @@ form.submit:hover{
 	padding: 20px;
     clear: both;
     display: table;
+}
+
+.profile {
+    border-radius: 50%;
+	box-shadow:-1px -1px 5px #111, 1px 1px 5px #111; 
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin-left:111px;
+}
+
+.overlayprofile {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 40;
+  right: 12;
+  border-radius: 50%;
+  box-shadow:-1px -1px 5px #111, 1px 1px 5px #111; 
+  background-color: #BF6457;
+  overflow: hidden;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.overlayprofile2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 40;
+  right: 68;
+  border-radius: 50%;
+  box-shadow:-1px -1px 5px #111, 1px 1px 5px #111; 
+  background-color: #BF6457;
+  overflow: hidden;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlayprofile {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.container:hover .overlayprofile2 {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.socialmedia {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
