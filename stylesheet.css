@@ -15,12 +15,26 @@
     padding: 0;
 }
 
-.featuresHeader{
+.featuresHeader, .aboutUsHeader{
     color: #BF6547;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 	font-size: 100px;
 
+}
+
+.ourGoals{
+    color: #BF6547;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 75px;
+}
+
+.whoWeAre{
+    color: #BF6547;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 55px;
 }
 
 .slideshow-container{
@@ -71,12 +85,11 @@
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
 }
 
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 0 3px 3px 0;
 }
 
 .prev {
