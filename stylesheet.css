@@ -172,57 +172,81 @@ h1{
     	text-align: center;
 }
 
-
-
-
 body{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: QuickSand;
 }
+
 .contact-title{
-	margin-top: 100px;
-	color: #BF6547;
-	text-transform: uppercase;
-	transition: all 4s ease-in-out;
+  margin-top: 20px;
+  color: #BF6547;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+  text-align: center;
 }
 .contact-title h1{
-	front-size: 32px;
-	line-height: 10px;
-}
-
-form{
-	margin-top: 50px;
-	transition: all 4s ease-in-out;	
+  font-size: 32px;
+  line-height: 100px;
 }
 
 .form-control{
-	width: 600px;
-	background: transparent;
-	border: none;
-	outlin: none;
-	border-bottom: 1px solid grey;
-	color: #F8F8F8;
-	font-size: 18px;
-	margin-bottom: 16px;
+  width: 650px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+  color: #BF6547;
+  font-size: 15px;
+  font-weight:"Quicksand";
+  margin-bottom:75px;
+
+}
+.email-title{
+  text-transform: boldin;
+  color: #F8F8F8;
+  font-family: "Quicksand";
+}
+.phone-title{
+  text-transform: bold;
+  color: #F8F8F8;
+  font-family: "Quicksand"
+}
+.address-title{
+  text-transform: bold;
+  color: #F8F8F8;
+  font-family: "QuickSand";
 }
 
-form.submit{
-	background:#F8F8F8;
-	border-color: transparent;
-	color: #BF6547;
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	height: 50px;
-	margin-top: 20px;
+.connect-title{
+  text-transform: bold;
+  color: #BF6547;
+  font: "Quicksand";
+  font-size: 23px;
+}
+input{
+  height: 20px;
+}
+form .sumbit{
+  background: #BF6547;
+  border-color: transparent;
+  color: #F8F8F8;
+  font-size: 20px;
+  font-weight: "Quicksand";
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: -10px;
+
+} 
+
+form .sumbit:hover
+{
+  background-color: #BD5D25;
+  cursor: pointer;
 }
 
-form.submit:hover{
-	background-color:#BF6547;
-	cursor: pointer;
-}
+
 
 #bgImg {
 	max-height: 100%;
