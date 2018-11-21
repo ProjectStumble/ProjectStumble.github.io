@@ -162,6 +162,7 @@ h2{
 	 
 	font-family: 'Quicksand', sans-serif;
     text-align: center;
+
 }
 
 
@@ -228,7 +229,7 @@ body{
 input{
   height: 20px;
 }
-form .sumbit{
+form .submit{
   background: #BF6547;
   border-color: transparent;
   color: #F8F8F8;
@@ -240,7 +241,7 @@ form .sumbit{
 
 } 
 
-form .sumbit:hover
+form .submit:hover
 {
   background-color: #BD5D25;
   cursor: pointer;
@@ -293,8 +294,8 @@ form .sumbit:hover
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: 60;
-  right: 12;
+  bottom: 63px;
+  right: 28px;
   border-radius: 50%;
   box-shadow:-1px -1px 5px #111, 1px 1px 5px #111; 
   background-color: #BF6457;
@@ -310,8 +311,8 @@ form .sumbit:hover
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: 60;
-  right: 68;
+  bottom: 62px;
+  right: 85px;
   border-radius: 50%;
   box-shadow:-1px -1px 5px #111, 1px 1px 5px #111; 
   background-color: #BF6457;
@@ -357,4 +358,12 @@ form .sumbit:hover
     margin: 0px 0px;
     cursor: pointer;
     border-radius: 8px;
+}
+
+.inline-block {
+    display: inline-block;
+    text-transform: bold;
+    color: #F8F8F8;
+    font: "Quicksand";
+    font-size: 23px;
 }
